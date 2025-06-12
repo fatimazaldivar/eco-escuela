@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eco-Escuela</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo Lobo" class="wolf-logo" />
+      <h1>Eco-Escuela</h1>
+    </div>
+  <audio id="himno" src="himnoAudio.mp3" controls loop></audio>
+   
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#huellas">Huellas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero-section">
+      <h2>Bienvenidos a Eco-Escuela</h2>
+      <p>Eco-Escuela es un proyecto creado para concientizar acerca del uso de desechables en el colegio y la alimentación que tenemos aqui mismo que en muchas ocasiones se basa en comida chatarra y que afecta nustra salud.</p>
+    </section>
+
+    <section class="content-section" id="actividades">
+      <h2>Actividades destacadas</h2>
+      <ul>
+        <li><img src="colegio.png" alt= "Escuela limpia" style="width:100%; max-width:400px; border-radius:8px;"></li>
+        <li><img src="comidasaludable.jpg" alt= "Comida saludable" style="width:100%; max-width:400px; border-radius:8px;"></li>
+        <li><img src="frutasyverduras.jpg" alt= "Frutas y verduras" style="width:100%; max-width:400px; border-radius:8px;"></li>
+      </ul>
+    </section>
+
+    <section class="paw-buttons-container" id="huellas">
+      <a href="medio-ambiente.html" class="paw-button"><img src="medioambiente.jpg" alt="Medio Ambiente"></a>
+      <a href="alimentacion.html" class="paw-button"><img src="alimentación.jpg" alt="Alimentación"></a>
+      <a href="acciones.html" class="paw-button"><img src="acciones.jpg" alt="Acciones"></a>
+    </section>
+
+    <div class="info-content">
+      <h3>Alimentación Saludable</h3>
+      <p>Consumir frutas y verduras diariamente nos aporta vitaminas, minerales y fibra esenciales para nuestra salud. Reducir la comida chatarra ayuda a prevenir enfermedades como la obesidad, diabetes y problemas del corazón.</p>
+    </div>
+
+    <form id="contacto" action="#" method="POST">
+      <h2>Contáctanos</h2>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Eco-Escuela - Proyecto escolar</p>
+  </footer>
+</body>
+</html>
